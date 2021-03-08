@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ElementosdeHTML5</title>
+    <link rel="icon" href="imagenes/mundodemile.jpg"
+</head>
+<body>
+    <a href="index.html">Atrás</a>
+    <h1>Elementos HTML5:</h1>
+    <P>Aquí podrás conocer los elementos (En acción) en HTML5 que podras usar</P>
+    <ol>
+        <li>Embed</li>
+        <li>Video</li>
+        <li>SVG</li>
+        <li>Datalist</li>
+        <li>Details</li>
+    </ol>
+    <h2>1. Embed</h2>
+        <h3>*Imagen</h3>
+        <embed type="image/jpg" src="Imagenes/dia.jpg" width="250" height="200">
+        <h3>*Video</h3>
+        <embed type="video/webm" src="Imagenes/video.mp4" width="400" height="225">
+        <h3>*Pagina html</h3>
+        <embed type="text/html" src="ElementosHTML.html" width="500" height="200">
+    <h2>2. Video</h2>
+        <video width="320" height="240" controls>
+        <source src="Imagenes/video.mp4" type="video/mp4">
+        </video>
+        <!--autoplay en vez de controls para que empiece automaticamente-->
+    <h2>3. SVG</h2>
+        <h3>*Forma</h3>
+        <svg width="100" height="100">
+            <circle cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="black" />
+        </svg>
+    <h3>*Texto</h3>
+        <svg height="80" width="200">
+        <text x="0" y="15" fill="red" transform="rotate(30 20,40)">El Mundo de Mile</text>
+        </svg>
+    <h2>4. Datalist</h2>
+        <label for="browser">Escoge tu catálogo favorito:</label>
+        <input list="browsers" name="browser" id="browser">
+        
+        <datalist id="browsers">
+        <option value=Ésika>
+        <option value="Cyzone">
+        <option value="L'bel">
+        <option value="Avon">
+        <option value="Novaventa">
+        </datalist>
+    <h2>5. Details</h2>
+        <details>
+        <summary>Origen del Mundo de Mile</summary>
+        <p>El Mundo de Mile es un microemprendimiento originada a partir de veinte años de dedicación como consultora de revistas, en los cuales  se invirtió en los productos para poder ofrecerlos al mejor precio.</p>
+        </details>
+    <h2>Es todo</h2>
+</body>
+</html>
